@@ -50,6 +50,7 @@ User guide to use braavos from you local machine.
 3. Start a notebook without starting a browser
 
   ```
+  export SPARK_HOME=/opt/cloudera/parcels/CDH/lib/spark/
   ipython notebook --profile=pyspark --no-browser --port=8889
   ```
 
